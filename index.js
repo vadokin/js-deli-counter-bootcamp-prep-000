@@ -4,8 +4,8 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-  if(){
-    
+  if(katzDeliLine.length === 0){
+    return 
   }
   return katzDeliLine[0]
 }
