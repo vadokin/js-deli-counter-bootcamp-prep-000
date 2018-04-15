@@ -14,7 +14,10 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   let string = ''
   for (var i = 0, len =  i < katzDeliLine.length; i < len i++) {
-    sstring katzDeliLine[i]
+    if (katzDeliLine.length === 0) {
+      
+    }
+    sstring += katzDeliLine[i] + 1
   }
   return "The line is currently: " + string   // 1. Ada, 2. Grace"
 }
