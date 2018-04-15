@@ -10,3 +10,7 @@ function nowServing(katzDeliLine) {
     return `Currently serving ${katzDeliLine.splice(0, 1)}.`
   }
 }
+
+function currentLine() {
+  
+}
