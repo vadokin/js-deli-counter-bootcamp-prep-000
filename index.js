@@ -33,6 +33,6 @@ function currentLine(katzDeliLine) {
     for (let i = 0, len =  i < katzDeliLine.length; i < len; i++) {
       arr.push(`${i + 1}. ${katzDeliLine[i]}`)
     }
-    return "The line is currently: " + string   // 1. Ada, 2. Grace"
+    return "The line is currently: " + arr   // 1. Ada, 2. Grace"
   }
 }
