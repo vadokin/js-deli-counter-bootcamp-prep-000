@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
     if (katzDeliLine.length === 0) {
       return "The line is currently empty."
     } else {
-      string += (katzDeliLine.length === 1) ? `${katzDeliLine[i] + 1}. ${katzDeliLine[i]}` : `, ${katzDeliLine[i] + 1}. ${katzDeliLine[i]}`
+      string += katzDeliLine.length === 1 ? '' : ', ' + `${katzDeliLine[i] + 1}. ${katzDeliLine[i]}`
       return "The line is currently: " + string   // 1. Ada, 2. Grace"
     }
   }
