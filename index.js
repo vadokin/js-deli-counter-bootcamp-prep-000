@@ -16,5 +16,5 @@ function currentLine(katzDeliLine) {
   for (var i = 0, len =  i < katzDeliLine.length; i < len i++) {
     katzDeliLine[i]
   }
-  return "The line is currently: 1. Ada, 2. Grace"
+  return "The line is currently: " + string   // 1. Ada, 2. Grace"
 }
